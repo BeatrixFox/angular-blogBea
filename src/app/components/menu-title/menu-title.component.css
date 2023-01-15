@@ -5,7 +5,7 @@
 .container__menu-title > h1{
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 135px;
+  font-size: 2rem;
   font-family: 'segoe UI';
   display: flex;
   justify-content: center;
@@ -14,4 +14,14 @@
 .container__menu-title > hr{
   margin-top: 20px;
   margin-bottom: 5px;
+}
+
+.page__inserir{
+  position: fixed;
+  top: 5px;
+  right:10px;
+  background-color: rgb(155, 154, 154);
+  color: rgb(3, 3, 133);
+  border-radius: 50px;
+  padding: 5px;
 }

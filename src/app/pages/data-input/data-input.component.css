@@ -1,0 +1,49 @@
+.container__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.container__content > hr{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.container__content > h1{
+    margin: 10px auto;
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+.content__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+}
+
+.content__form > p{
+     margin: 15px;
+}
+
+.content__form > input, textarea{
+    color: rgb(19, 17, 17);
+}
+
+.content__form > button{
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 25px;
+    color: rgb(1, 1, 122);
+    background-color: rgb(136, 252, 213);
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 80%;
+    min-width: 200px;
+
+}

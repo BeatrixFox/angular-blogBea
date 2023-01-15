@@ -1,0 +1,20 @@
+@media screen and (max-width:600px){
+    .container__big-card{
+        width: 95%;
+        min-width: 300px;
+        margin: 15px;
+
+      }
+      .big-card__description{
+        margin-top: 10px;
+        width: 80%;
+        text-align: left;
+      }
+
+      .big-card__photo > img{
+        width: 80%;
+        min-width: 260px;
+        margin-right: 5px;
+      }
+          
+}

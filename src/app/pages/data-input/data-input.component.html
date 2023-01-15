@@ -1,0 +1,18 @@
+<section class="container__content">
+   <hr>
+   <a [routerLink] = "['']">Voltar para home</a>
+   <hr>
+   <h1>Insira os dados para o banco de dados de apoio Fake</h1>
+   <hr />
+   <div class="content__form">
+      <p>Adicione um link de Imagem</p>
+      <input type="text" [(ngModel)]="photoCover">
+
+      <p>Adicione um Titulo</p>
+      <input type="text" [(ngModel)]="contentTitle">
+
+      <p>Adicione uma Descrição</p>
+      <textarea type="text" [(ngModel)]="contentDescription">rows="4" cols="50"></textarea>
+      <button (click)="addValuesInDataFake()">ADICIONAR</button>
+   </div>
+</section> 
